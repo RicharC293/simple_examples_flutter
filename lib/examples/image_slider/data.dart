@@ -57,7 +57,7 @@ const List<Data> data = [
     description:
         "Batman se enfrenta a su mayor desafío cuando el Guasón aparece en Gotham City. El villano tiene un plan para destruir la ciudad y el Caballero Oscuro debe detenerlo antes de que sea demasiado tarde.",
     image:
-        "https://larepublica.cronosmedia.glr.pe/migration/images/TLBIGOIGTFGCBIU4TECGW7KOLA.jpg",
+        "https://tierragamer.com/wp-content/uploads/2018/07/the_dark_knight_mejor_pelicula_comics.jpg",
   ),
   Data(
     id: 5,
