@@ -158,12 +158,12 @@ class _ContentButtonState extends State<ContentButton>
 
   @override
   void dispose() {
-    super.dispose();
     controllerDoors.dispose();
     controllerTruck.dispose();
     controllerPackage.dispose();
     controllerLines.dispose();
     controllerCheck.dispose();
+    super.dispose();
   }
 
   @override
