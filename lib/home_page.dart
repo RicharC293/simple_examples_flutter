@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:simple_examples/examples/delivery_button/delivery_button.dart';
 import 'package:simple_examples/examples/image_slider/image_slider.dart';
+import 'package:simple_examples/examples/tik_tok_animation/tik_tok_animation.dart';
 
 import 'examples/apple_maps/apple_maps.dart';
 import 'examples/ios_calculator/screens/calculator_screen.dart';
@@ -55,6 +56,15 @@ class SimpleExamples extends StatelessWidget {
               }));
             },
             child: const Text("iOS Calculator"),
+          ),
+          const SizedBox(height: 8),
+          TextButton(
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return const TikTokAnimationScreen();
+              }));
+            },
+            child: const Text("TikTok Animation"),
           ),
         ],
       ),
